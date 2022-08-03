@@ -1,10 +1,10 @@
 # Crush Your Competition
 
-![badge](https://img.shields.io/badge/project--09-computer--boy-brightgreen)
+![badge](https://img.shields.io/badge/project--10-interiorpage-brightgreen)
 
-# [Link of deploy live project](https://computerboy.netlify.app/)
+# [Link of deploy live project](https://interoirdesignpage.netlify.app/)
 
-![LCO](./view09.png)
+![LCO](./view10.png)
 
 # What I learned from this project-04
 
