@@ -113,3 +113,55 @@ body{
     top: 3rem;
     position: absolute;
 }
+
+
+
+@media screen and (max-width : 768px) {
+    
+    .nav-links{
+        display: none;
+    }
+
+    .main-content{ 
+        justify-content: space-between;
+        
+        text-align: center;
+        
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .card-light{
+        margin-top: 5rem;
+        margin-right: 20rem;
+        padding: -5rem;
+    }
+
+    .card-light .line{
+        transform: rotate(0deg);
+        top: 8rem;
+        margin-left: -5rem;
+        position: absolute;
+    }
+
+    .card-puzzle{
+        margin-top: 5rem;
+        margin-right: 20rem;
+        padding: -5rem;
+    }
+    /*.card-puzzle{
+        margin-left: -10rem;
+        padding: -5rem;
+    }*/
+/*
+    .card-puzzle .line{
+        transform: rotate(90deg);
+        top: 10rem;
+        margin-right: 5rem;
+        position: relative
+    }*/
+}
