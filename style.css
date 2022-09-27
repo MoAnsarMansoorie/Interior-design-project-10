@@ -142,26 +142,15 @@ body{
     }
 
     .card-light .line{
-        transform: rotate(0deg);
+        transform: rotate(180deg);
         top: 8rem;
-        margin-left: -5rem;
+        margin-left: -20rem;
         position: absolute;
     }
 
     .card-puzzle{
-        margin-top: 5rem;
-        margin-right: 20rem;
-        padding: -5rem;
+        position: absolute;
+        top: 50rem;
+        left: 6rem;
     }
-    /*.card-puzzle{
-        margin-left: -10rem;
-        padding: -5rem;
-    }*/
-/*
-    .card-puzzle .line{
-        transform: rotate(90deg);
-        top: 10rem;
-        margin-right: 5rem;
-        position: relative
-    }*/
 }
