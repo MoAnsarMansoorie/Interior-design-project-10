@@ -47,7 +47,7 @@ body{
 }
 
 
-.main-content h1{
+.maincontainer h1{
     font-size: 60px;
     font-weight: bold;
     margin-top: 5rem;
@@ -56,7 +56,7 @@ body{
 }
 
 
-.main-content button{
+.maincontainer button{
     padding-top: 1.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -83,7 +83,7 @@ body{
     
 }
 
-.card-puzzle{
+.card2{
     font-size: 18px;
     color: aliceblue;
     font-weight: bold;
@@ -92,7 +92,7 @@ body{
     padding: 1.5rem;
 }
 
-.card-puzzle .line{
+.card2 .line2{
     transform: rotate(90deg);
     top: 10rem;
     right: 4rem;
@@ -100,7 +100,7 @@ body{
 }
 
 
-.card-light{
+.card1{
     font-size: 18px;
     color: aliceblue;
     font-weight: bold;
@@ -108,7 +108,7 @@ body{
     padding: 1.5rem;
 }
 
-.card-light .line{
+.card1 .line1{
     left: 14rem;
     top: 3rem;
     position: absolute;
@@ -122,7 +122,7 @@ body{
         display: none;
     }
 
-    .main-content{ 
+    .maincontainer{ 
         justify-content: space-between;
         
         text-align: center;
@@ -135,22 +135,26 @@ body{
         position: relative;
     }
 
-    .card-light{
+    .card1{
         margin-top: 5rem;
-        margin-right: 20rem;
+        margin-right: 5rem;
         padding: -5rem;
     }
 
-    .card-light .line{
+    .card1 .line1{
         transform: rotate(180deg);
         top: 8rem;
         margin-left: -20rem;
         position: absolute;
     }
 
-    .card-puzzle{
+    .card2{
         position: absolute;
-        top: 50rem;
+        top: 65rem;
         left: 6rem;
+    }
+
+    .card2 .line2{
+        margin-top: 2.8rem;
     }
 }
